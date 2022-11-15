@@ -1,0 +1,28 @@
+/* image viewer */
+.files-viewer{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+}
+.files-viewer img{
+    width: 150px;
+    height: 150px;
+}
+.files-viewer span{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid rgb(65, 63, 63);
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background: #fff;
+    text-align: center;
+    font-size: 13px;
+    line-height: 23px;
+    cursor: pointer;
+}
+.files-viewer span i{
+    color: red;
+}

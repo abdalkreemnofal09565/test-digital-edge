@@ -1,0 +1,17 @@
+.select2-container .select2-selection--single{
+    height: 38px !important;
+}
+.select2-selection .select2-selection--multiple{
+    height: 38px !important;
+}
+li.select2-selection__choice span {
+    color: black !important;
+}
+
+
+
+/* show table */
+.show-table th{
+    white-space: nowrap;
+    width: 1%;
+}
